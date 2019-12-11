@@ -5,7 +5,7 @@ Footer plugin for [Docsify](https://docsify.js.org), based on [Docsify example](
 
 1. Then insert script plugin into docsify document (index.html)
 ```html
-<script src="//unpkg.com/docsify-footer/dist/docsify-footer.min.js"></script>
+<script src="//unpkg.com/docsify-footer/dist/docsify-footer-enh.min.js"></script>
 ```
 2. Add configuration
 ```html
