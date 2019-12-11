@@ -23,7 +23,7 @@ Footer Enhancement plugin for [Docsify](https://docsify.js.org), based on [Docsi
 ```
 
 Config Option | Description
-:--_ |:--
+:-- |:--
 copy | Copyright text to display
 auth | Author text
 style | Footer CSS inline style
