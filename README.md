@@ -1,5 +1,5 @@
 # docsify-footer
-Footer plugin for [Docsify](https://docsify.js.org), based on [Docsify example](https://docsify.js.org/#/write-a-plugin?id=example).
+Footer Enhancement plugin for [Docsify](https://docsify.js.org), based on [Docsify example](https://docsify.js.org/#/write-a-plugin?id=example).
 
 ## Install
 
