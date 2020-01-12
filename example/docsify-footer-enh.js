@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _plugin_footer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./plugin-footer */ \"./src/plugin-footer.js\");\n\n\n// if (!window.$docsify) {\n//   window.$docsify = {}\n// }\nwindow.$docsify = window.$docsify || {};\nwindow.$docsify.plugins = (window.$docsify.plugins || []).concat(_plugin_footer__WEBPACK_IMPORTED_MODULE_0__[\"install\"])\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _plugin_footer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./plugin-footer */ \"./src/plugin-footer.js\");\n\n\n// if (!window.$docsify) {\n//   window.$docsify = {}\n// }\nwindow.$docsify = window.$docsify || {};\nwindow.$docsify.plugins = (window.$docsify.plugins || []).concat(_plugin_footer__WEBPACK_IMPORTED_MODULE_0__[\"install\"]);\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _plu
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"install\", function() { return install; });\nfunction install (hook, vm) {\n    let userOptions = vm.config.footer;\n\n    let copy = vm.config.footer && vm.config.footer.copy ? vm.config.footer.copy : '<span>&copy; 2019.</span>';\n    let auth = vm.config.footer && vm.config.footer.auth ? vm.config.footer.auth : '<span>Published with <a href=\"https://github.com/docsifyjs/docsify\" target=\"_blank\">docsify</a>.</span>';\n    let style = vm.config.footer && vm.config.footer.style ? `style=\"${vm.config.footer.style}\"` : '';\n    let clazz = vm.config.footer && vm.config.footer.class ? `class=\"${vm.config.footer.class}\"` : '';\n    let pre = vm.config.footer && vm.config.footer.pre ? `${vm.config.footer.pre}` : '';\n\n    var footer = `${pre}<footer ${style} ${clazz}>${copy} ${auth}</footer>`;\n\n    hook.afterEach(function(html) {\n        return html + footer;\n    });\n}\n\n\n//# sourceURL=webpack:///./src/plugin-footer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"install\", function() { return install; });\nfunction install(hook, vm) {\n  let userOptions = vm.config.footer;\n\n  let copy = vm.config.footer && vm.config.footer.copy ? vm.config.footer.copy : '<span>&copy; 2019.</span>';\n  let auth =\n    vm.config.footer && vm.config.footer.auth\n      ? vm.config.footer.auth\n      : '<span>Published with <a href=\"https://github.com/docsifyjs/docsify\" target=\"_blank\" rel=\"noreferrer\" rel=\"noopener\">docsify</a>.</span>';\n  let style = vm.config.footer && vm.config.footer.style ? `style=\"${vm.config.footer.style}\"` : '';\n  let clazz = vm.config.footer && vm.config.footer.class ? `class=\"${vm.config.footer.class}\"` : '';\n  let pre = vm.config.footer && vm.config.footer.pre ? `${vm.config.footer.pre}` : '';\n\n  var footer = `${pre}<footer ${style} ${clazz}>${copy} ${auth}</footer>`;\n\n  hook.afterEach(function(html) {\n    return html + footer;\n  });\n}\n\n\n//# sourceURL=webpack:///./src/plugin-footer.js?");
 
 /***/ })
 

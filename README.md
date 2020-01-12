@@ -4,7 +4,7 @@ Footer Enhancement plugin for [Docsify](https://docsify.js.org), based on [Docsi
 
 ## Install
 
-1. Then insert script plugin into docsify document (index.html)
+1. Then insert script plugin into Docsify document (index.html)
 
 ```html
 <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
@@ -14,15 +14,15 @@ Footer Enhancement plugin for [Docsify](https://docsify.js.org), based on [Docsi
 
 ```html
 <script>
-    window.$docsify = {
-        footer: {
-            copy: "<span>Acme &copy; 2019</span>",
-            auth: "by Me",
-            pre: "<hr/>",
-            style: "text-align: right;",
-            style: "className"
-        }
-    };
+  window.$docsify = {
+    footer: {
+      copy: '<span>Acme &copy; 2019</span>',
+      auth: 'by Me',
+      pre: '<hr/>',
+      style: 'text-align: right;',
+      style: 'className'
+    }
+  };
 </script>
 ```
 
@@ -46,4 +46,4 @@ Footer Enhancement plugin for [Docsify](https://docsify.js.org), based on [Docsi
 
 ## TODO
 
--   Waiting for recommendations.
+- Waiting for recommendations.

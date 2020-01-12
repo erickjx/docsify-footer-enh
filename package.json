@@ -18,6 +18,7 @@
     "url": "https://github.com/erickjx/docsify-footer-enh/issues"
   },
   "homepage": "https://github.com/erickjx/docsify-footer-enh#readme",
+  "dependencies": {},
   "devDependencies": {
     "docsify-cli": "^4.4.0",
     "prettier": "^1.19.1",
@@ -31,10 +32,9 @@
     "build": "npm run build:dev && npm run build:prod",
     "build:dev": "webpack src/index.js -o dist/docsify-footer-enh.js --mode=development && webpack src/index.js -o example/docsify-footer-enh.js --mode=development",
     "build:prod": "webpack src/index.js -o dist/docsify-footer-enh.min.js --mode=production",
-    "prettier:format": "prettier --write \"{,src/**/}*.{md,json,ts,html,css,scss,yml}\"",
+    "prettier:format": "prettier --write \"{,src/**/,example/**/}*.{md,json,js,ts,html,css,scss,yml}\"",
     "example": "npx docsify serve example"
   },
-  "dependencies": {},
   "keywords": [
     "Docsify",
     "Footer"
