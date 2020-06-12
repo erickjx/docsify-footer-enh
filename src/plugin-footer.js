@@ -12,7 +12,7 @@ export function install(hook, vm) {
 
   var footer = `${pre}<footer ${style} ${clazz}>${copy} ${auth}</footer>`;
 
-  hook.afterEach(function(html) {
+  hook.afterEach(function (html) {
     return html + footer;
   });
 }
