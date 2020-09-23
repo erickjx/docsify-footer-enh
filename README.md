@@ -20,7 +20,7 @@ Footer Enhancement plugin for [Docsify](https://docsify.js.org), based on [Docsi
       auth: 'by Me',
       pre: '<hr/>',
       style: 'text-align: right;',
-      style: 'className',
+      class: 'className',
     },
   };
 </script>
