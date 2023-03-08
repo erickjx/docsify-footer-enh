@@ -16,7 +16,7 @@ Footer Enhancement plugin for [Docsify](https://docsify.js.org), based on [Docsi
 <script>
   window.$docsify = {
     footer: {
-      copy: '<span>Acme &copy; 2020</span>',
+      copy: '<span>Acme &copy; 2023</span>',
       auth: 'by Me',
       pre: '<hr/>',
       style: 'text-align: right;',
